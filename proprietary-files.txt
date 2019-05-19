@@ -598,3 +598,10 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Novatek ts firmware
 etc/firmware/novatek_ts_fw.bin:vendor/firmware/novatek_ts_fw.bin
+
+# QC RIL
+vendor/bin/hw/qcrild
+vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
+vendor/lib64/libqcrilFramework.so
+vendor/lib64/libril-qc-hal-qmi.so
+vendor/lib64/qcrild_librilutils.so
