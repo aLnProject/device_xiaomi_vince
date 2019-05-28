@@ -420,17 +420,6 @@ vendor/lib/libchromatix_vince_india_ov5675_qtech_zsl_video_3a.so
 vendor/lib/libmmcamera_vince_ov5675_qtech.so
 vendor/lib/libmmcamera_vince_ov5675_qtech_eeprom.so
 
-# Camera HIDL - from vince (HACK NEEDED)
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/lib/camera.device@1.0-impl.so
-vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
-
 # Camera OIS
 vendor/lib/libois_lc898122.so
 
@@ -438,28 +427,17 @@ vendor/lib/libois_lc898122.so
 vendor/bin/mm-qcamera-daemon
 
 # Camera QCOM Libraries - from vince
-vendor/lib/hw/camera.msm8953.so
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
-vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_dualcam_refocus.so
-vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libchromaflash.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
-vendor/lib/lib_lowlight.so
 vendor/lib/libmibokeh_625.so
-vendor/lib/libmmcamera_interface.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmm-qcamera.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-vendor/lib/libmpbase.so
 vendor/lib/liboptizoom.so
-vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
@@ -469,9 +447,6 @@ vendor/lib/libseemore.so
 -vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libubifocus.so
 vendor/lib/libvidhance.so
-vendor/lib/libXMFD_AgeGender.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so
 
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
